@@ -1,23 +1,60 @@
-html {
-    font-size: 22px
+body {
+  background-color: #54a5f5;  /* Blue-ish background */
+  font-family: 'Trebuchet MS', sans-serif; /* A bit quirky font */
+  font-size: 18px;
+  text-align: center;
 }
 
-body{
-    background-color: black;
-    color: whitesmoke;
-    
+h1 {
+  color: #ffcc00;  /* Yellow-ish headings */
+  font-size: 3em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px 0;
 }
+
+h2 {
+  color: #ff6666;  /* Pink-ish subheadings */
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+p {
+  line-height: 1.7;
+  margin: 15px 0;
+  color: #333;
+}
+
 a {
-    color:aliceblue;
+  color: #a954f5;  /* Purple-ish links */
+  text-decoration: none;
+  border-bottom: 1px dotted #ccc;
+}
 
-}
-a:visited{
-    color: lightgray;
-}
-a:hover,a:active{
-    color: #eee;
-}
 img {
-    width: 300px;
-    height: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 10px;
 }
+
+ul, ol {
+  list-style-type: square;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+section {
+  background-color: #f5f5f5;  /* Light gray background for sections */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
